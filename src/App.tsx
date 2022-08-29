@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const a = ['a'];
+  a?.forEach(a => console.log(a))
   return (
     <div className="App">
       <header className="App-header">
